@@ -18,7 +18,7 @@ public class Student {
     public String getName (){return name;}
     public int getId (){return id;}
     public String getSurname(){return surname;}
-    public Student setStarosta () {
+    public void setStarosta () {
         this.starosta = true;
-        return this;};
+    };
 }
