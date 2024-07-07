@@ -15,6 +15,18 @@ public class StudentsGroup {
         this.isDoneTask = new HashMap<>();
         this.starosta = starosta;
     }
+    public ArrayList<String> getTasks (){
+        return tasks;
+    };
+    public ArrayList<Student> getStudents(){
+        return students;
+    };
+    public HashMap<Integer,ArrayList <String>> getIsDoneTask(){
+        return isDoneTask;
+    };
+    public Student getStarosta (){
+        return starosta;
+    };
 
     public void setStarosta (Student student){
         student.setStarosta();
